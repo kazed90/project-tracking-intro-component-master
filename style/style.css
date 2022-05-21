@@ -3,6 +3,7 @@
     padding: O;
     box-sizing: border-box;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -19,6 +20,66 @@ nav{
 }
 .link-container a{
     font-size: 1.25;
-    font-weight: 500;
+    font-weight: bold;
     text-transform: uppercase;
+}
+header{
+    display: flex;
+    align-items: center;
+   overflow: hidden;
+}
+.info{
+    padding: 6rem;
+    flex: 1;
+
+}
+
+#subtitel{
+    color:#c4c4c4 ;
+    letter-spacing: 3px
+}
+#subtitel span{
+    background-color:rgb(17, 17, 87) ;
+    color:white ;
+    padding:0.25rem 0.35rem ;
+    border-radius:1rem ;
+    letter-spacing: 0;
+}
+h1{
+    font-size: 2rem;
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
+}
+#description{
+    color: #c4c4c4;
+    margin-bottom: 2rem;
+}
+.buton-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.buton-container button{
+    background-color: orangered;
+    padding: 1rem 1.5rem;
+    border-radius: 0.2rem;
+    color: white;
+
+}
+.buton-container P{
+    color: #c4c4c4;
+}
+.image{
+    flex: 1;
+    width: 50%;
+}
+#bg{
+    width: 50%;
+    height: 50%;
+    border-bottom-left-radius: 3rem;
+    background-color:hsl(207, 33%, 95%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }
